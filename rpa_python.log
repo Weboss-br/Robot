@@ -1,0 +1,60 @@
+
+START - automation started - Thu Feb 23 2023 18:56:39 GMT-0300 (Hora oficial do Brasil)
+
+LIVE MODE - type done to quit
+ [RPA][STARTED]
+[RPA][0] - listening for inputs
+[RPA][1] - https://github.com/login
+[RPA][1] - listening for inputs
+[RPA][2] - exist_result = exist('//*[@id="login_field"]').toString()
+[RPA][2] - listening for inputs
+[RPA][3] - dump exist_result to rpa_python.txt
+[RPA][3] - listening for inputs
+[RPA][4] - type //*[@id="login_field"] as weboss@gmail.com
+[RPA][4] - listening for inputs
+[RPA][5] - exist_result = exist('//*[@id="password"]').toString()
+[RPA][5] - listening for inputs
+[RPA][6] - dump exist_result to rpa_python.txt
+[RPA][6] - listening for inputs
+[RPA][7] - type //*[@id="password"] as vtVT8BKw859NtcM[enter]
+[RPA][7] - listening for inputs
+[RPA][8] - https://github.com/Weboss-br?tab=repositories
+[RPA][8] - listening for inputs
+[RPA][9] - https://github.com/new
+[RPA][9] - listening for inputs
+[RPA][10] - exist_result = exist('//*[@id="repository_name"]').toString()
+[RPA][10] - listening for inputs
+[RPA][11] - dump exist_result to rpa_python.txt
+[RPA][11] - listening for inputs
+[RPA][12] - type //*[@id="repository_name"] as Novo Repositorio
+[RPA][12] - listening for inputs
+[RPA][13] - exist_result = exist('//*[@id="repository_description"]').toString()
+[RPA][13] - listening for inputs
+[RPA][14] - dump exist_result to rpa_python.txt
+[RPA][14] - listening for inputs
+[RPA][15] - type //*[@id="repository_description"] as Descrição do repositório é aqui.
+[RPA][15] - listening for inputs
+[RPA][16] - exist_result = exist('//*[@id="repository_auto_init"]').toString()
+[RPA][16] - listening for inputs
+[RPA][17] - dump exist_result to rpa_python.txt
+[RPA][17] - listening for inputs
+[RPA][18] - click //*[@id="repository_auto_init"]
+[RPA][18] - listening for inputs
+[RPA][19] - exist_result = exist('//*[@id="new_repository"]/div[5]/button').toString()
+[RPA][19] - listening for inputs
+[RPA][20] - dump exist_result to rpa_python.txt
+[RPA][20] - listening for inputs
+[RPA][21] - click //*[@id="new_repository"]/div[5]/button
+[RPA][21] - listening for inputs
+[RPA][22] - exist_result = exist('//*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/span[1]/get-repo/details/summary').toString()
+[RPA][22] - listening for inputs
+[RPA][23] - dump exist_result to rpa_python.txt
+[RPA][23] - listening for inputs
+[RPA][24] - click //*[@id="repo-content-pjax-container"]/div/div/div[3]/div[1]/div[2]/span[1]/get-repo/details/summary
+[RPA][24] - listening for inputs
+[RPA][25] - exist_result = exist('//*[@id="local-panel"]/ul/li[1]/tab-container/div[2]/div/div/clipboard-copy').toString()
+[RPA][25] - listening for inputs
+[RPA][26] - dump exist_result to rpa_python.txt
+[RPA][26] - listening for inputs
+[RPA][27] - click //*[@id="local-panel"]/ul/li[1]/tab-container/div[2]/div/div/clipboard-copy
+[RPA][27] - listening for inputs
